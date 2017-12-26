@@ -3,7 +3,7 @@ var config = {
 	// 调试
 	debug: true,
 	// 社区名称
-	name: '小度鱼API',
+	name: '千里API',
 	// cookie 配置 [必填，建议修改]
 	cookie_secret: 'cookie_secret_xiaoduyu',
 	// jwt配置 [必填，建议修改]
@@ -12,7 +12,7 @@ var config = {
 	// 默认用户头像
 	defaultAvatar: '//img.xiaoduyu.com/default_avatar.jpg',
 	// mongodb配置 [必填]
-	db_url: 'mongodb://localhost:27017/xiaoduyu',
+	db_url: 'mongodb://localhost:27017/qianliweb',
 	// 本地ip [必填]
 	host: 'localhost',
 	// 端口 [必填]
