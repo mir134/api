@@ -59,7 +59,8 @@ app.all('*',function (req, res, next) {
 
 	req.jwtTokenSecret = app.get('jwtTokenSecret')
 
-  res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Origin', 'http://192.168.63.85:4001');
+	res.header('Access-Control-Allow-Credentials', true);
   res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With ,yourHeaderFeild, AccessToken');
   res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
 

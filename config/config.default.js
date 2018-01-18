@@ -5,14 +5,14 @@ var config = {
 	// 社区名称
 	name: '小度鱼API',
 	// cookie 配置 [必填，建议修改]
-	cookie_secret: 'cookie_secret_xiaoduyu',
+	cookie_secret: 'cookie_secret_qianiweb',
 	// jwt配置 [必填，建议修改]
 	// https://github.com/hokaccha/node-jwt-simple
-	jwt_secret: 'jwt_secret_xiaoduyu',
+	jwt_secret: 'jwt_secret_qianiweb',
 	// 默认用户头像
 	defaultAvatar: '//img.xiaoduyu.com/default_avatar.jpg',
 	// mongodb配置 [必填]
-	db_url: 'mongodb://localhost:27017/xiaoduyu',
+	db_url: 'mongodb://localhost:27017/qianiweb_db',
 	// 本地ip [必填]
 	host: 'localhost',
 	// 端口 [必填]
@@ -80,7 +80,7 @@ var config = {
 		// 国际短信
 		international: {
 			apikey: '',
-			text: '【XiaoDuYu】security code: {code}. Use this to finish verification.'
+			text: '【qianiweb】security code: {code}. Use this to finish verification.'
 		}
 	}
 

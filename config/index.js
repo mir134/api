@@ -12,7 +12,7 @@ var config = {
 	// 默认用户头像
 	defaultAvatar: '//img.xiaoduyu.com/default_avatar.jpg',
 	// mongodb配置 [必填]
-	db_url: 'mongodb://localhost:27017/qianliweb',
+	db_url: 'mongodb://localhost:27017/xiaoduyu',
 	// 本地ip [必填]
 	host: 'localhost',
 	// 端口 [必填]

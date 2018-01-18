@@ -69,7 +69,9 @@ var UserSchema = new Schema({
   // 访问令牌
   access_token: { type: String },
   // 密码
-  password: String
+  password: String,
+  // 密码
+  app_ids: [{ type: ObjectId, ref: 'App' }]
 });
 
 
